@@ -1,0 +1,28 @@
+{
+  "name": "reboot-component",
+  "version": "0.0.1",
+  "description": "Reboot component for OakOS v5.0.x",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "npm start",
+    "rebuild": "rm -rf node_modules/ package-lock.json && npm install",
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OakLabsInc/component-reboot.git"
+  },
+  "author": "Richard Joffray <richard@joffray.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/OakLabsInc/component-reboot/issues"
+  },
+  "homepage": "https://github.com/OakLabsInc/component-reboot#readme",
+  "dependencies": {
+    "@oaklabs/platform": "~3.1.0",
+    "dotenv": "^8.2.0",
+    "node-schedule": "~1.3.2"
+  },
+  "private": false
+}
